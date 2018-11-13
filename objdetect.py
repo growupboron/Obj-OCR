@@ -16,7 +16,7 @@ params = urllib.urlencode({
 })
 
 print('Analyze')
-body = open('test-3.jpeg', "rb").read()
+body = open('1.jpg', "rb").read()
 conn = httplib.HTTPSConnection('centralindia.api.cognitive.microsoft.com')
 conn.request("POST", "/vision/v1.0/analyze?%s"%params, body, headers)
 response = conn.getresponse()

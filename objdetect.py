@@ -3,7 +3,7 @@ from os import system
 
 
 # CHANGE {MS_API_KEY} BELOW WITH YOUR MICROSOFT VISION API KEY
-ms_api_key = "3ce370692850429d98d3bfb773bc37c2"
+ms_api_key = ""
 
 # setup vision API
 headers = {

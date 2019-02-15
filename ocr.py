@@ -7,7 +7,7 @@ from PIL import Image
 from io import BytesIO
 
 # Replace <Subscription Key> with your valid subscription key.
-subscription_key = "<3ce370692850429d98d3bfb773bc37c2>"
+subscription_key = "<>"
 assert subscription_key
 
 # You must use the same region in your REST call as you used to get your
